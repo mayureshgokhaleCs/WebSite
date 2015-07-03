@@ -1,0 +1,23 @@
+body{
+text-align:center;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391));
+}
+#mybox{
+display:block;
+margin:150px auto;
+color:#ffffff;
+-webkit-border-radius:10px;
+opacity:0.6;
+
+width:120px;
+height:75px;
+-webkit-transition:-webkit-transform 2s, opacity 2s, background 2s,
+width 2s, height 2s;
+}
+#mybox:hover{
+-webkit-transform: rotate(180deg);
+opacity:1;
+
+width:450px;
+height:110px;
+}
